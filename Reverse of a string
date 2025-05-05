@@ -1,0 +1,5 @@
+#Write a Python program to find the reverse of a string.
+ch = str(input())
+for i in range(len(ch)):
+	print(ch[len(ch)-i-1],end = "")
+print("\n")
