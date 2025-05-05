@@ -1,0 +1,9 @@
+#Write a Python program that takes a sentence as input, removes punctuations from the sentence, and displays the modified sentence.
+a = input()
+for i in range(0,len(a)):
+	if a[i].isalnum() == True or a[i] == " ":
+		#or a[i].isdigit == True or
+		print(a[i],end="")
+	else:
+		continue
+print("\n")
